@@ -26,13 +26,6 @@ spec:
       containers:
       - name: javawebapp-container
         image: prcdocker/maven-web-application:multistagedockerfile
-        resources:
-          requests:
-            cpu: "300m"
-            memory: "450Mi"
-          limits:
-            memory: "550Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8080
 ---
