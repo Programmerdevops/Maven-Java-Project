@@ -20,7 +20,7 @@ spec:
         - name: batman-container
           image: prcdocker/superman-web:1
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           resources:
             requests:
               cpu: "200m"
