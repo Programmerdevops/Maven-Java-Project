@@ -4,7 +4,7 @@ metadata:
   name: batman-deployment
   namespace: webapps
   labels:
-    app: apache
+    app: Apache
 spec:
   replicas: 2
   selector:
