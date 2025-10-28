@@ -9,12 +9,12 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: apache
+      app: Apache
   template:
     metadata:
       labels:
-        app: apache
-        version: blue
+        app: Apache
+        version: green
     spec:
       containers:
         - name: batman-container
