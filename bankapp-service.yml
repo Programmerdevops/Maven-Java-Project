@@ -4,12 +4,12 @@ metadata:
   name: frontendapp-service
   namespace: webapps
   labels:
-    app: apache
+    app: Apache
     version: blue
 spec:
   type: NodePort
   selector:
-    app: apache
+    app: Apache
     version: blue
   ports:
     - port: 80
